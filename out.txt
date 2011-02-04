@@ -1,0 +1,50 @@
+[1] "start 3.29"
+
+	Two Sample t-test
+
+data:  survived["Humerus"] and perished["Humerus"] 
+t = 1.777, df = 57, p-value = 0.0809
+alternative hypothesis: true difference in means is not equal to 0 
+95 percent confidence interval:
+ -1.279386 21.446053 
+sample estimates:
+mean of x mean of y 
+ 738.0000  727.9167 
+
+
+	Two Sample t-test
+
+data:  survived["Humerus"] and perished_subset["Humerus"] 
+t = 1.3578, df = 56, p-value = 0.1800
+alternative hypothesis: true difference in means is not equal to 0 
+95 percent confidence interval:
+ -3.368785 17.542698 
+sample estimates:
+mean of x mean of y 
+  738.000   730.913 
+
+[1] "start 3.33"
+
+	Welch Two Sample t-test
+
+data:  ldata["lesser"] and ldata["greater"] 
+t = -1.9669, df = 90.684, p-value = 0.05225
+alternative hypothesis: true difference in means is not equal to 0 
+95 percent confidence interval:
+ -0.797879510  0.003942989 
+sample estimates:
+mean of x mean of y 
+ 1.552458  1.949426 
+
+
+	Welch Two Sample t-test
+
+data:  data["lesser"] and data["greater"] 
+t = -2.4686, df = 66.83, p-value = 0.01613
+alternative hypothesis: true difference in means is not equal to 0 
+95 percent confidence interval:
+ -7.3836463 -0.7814779 
+sample estimates:
+mean of x mean of y 
+ 6.885882 10.968444 
+
