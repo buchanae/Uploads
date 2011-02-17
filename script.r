@@ -1,25 +1,31 @@
 # Alex Buchanan
 # ST 511
-# HW 4
+# HW 5
 
+
+# 4.32
 
 library(Sleuth2)
 
-"start 3.29"
-survived = subset(case0201, Status=="Survived")
-perished = subset(case0201, Status=="Perished")
+attach(ex0432)
 
-t.test(survived["Humerus"], perished["Humerus"], var.equal=TRUE)
+diff = Placebo - Marijuana
 
-perished_subset = subset(perished, Humerus!="659")
-t.test(survived["Humerus"], perished_subset["Humerus"], var.equal=TRUE)
+length(diff>0)
+length(which(diff>0))
+binom.test(13, 15, alternative='greater')
 
+wilcox.test(diff, exact=FALSE, alternative='greater')
 
-"start 3.33"
+detach(ex0432)
 
-data = read.csv("3.33.csv", header=T)
-# log transforming data makes the conclusion clearer
-ldata = log(data)
-t.test(ldata["lesser"], ldata["greater"])
-# run again to get useful confidence interval
-t.test(data["lesser"], data["greater"])
+# Salvage logging
+
+biscuit = read.csv("biscuit.csv", header=T)
+
+attach(biscuit)
+
+wilcox.test(percentlost~action, exact=FALSE, correct=FALSE, conf.int=TRUE)
+t.test(percentlost~action, var.equal=TRUE)
+
+detach(biscuit)

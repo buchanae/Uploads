@@ -1,0 +1,92 @@
+[1] "start 2.13"
+[1] "a) mean and std dev"
+[1] 6.571429
+[1] -1.142857
+[1] 5.8554
+[1] 3.184785
+[1] "b) pooled estimate of std dev"
+[1] "pooled estimate is..."
+[1] 4.713203
+[1] "c) std error is..."
+[1] 2.519313
+[1] "d) degrees of freedom..."
+[1] 12
+[1] "e) 95% confidence interval..."
+[1] -13.20387
+[1] -2.224702
+[1] "f) t-statistic"
+[1] -3.062059
+[1] "start 2.14"
+
+	Welch Two Sample t-test
+
+data:  fishoil and regular 
+t = 3.0621, df = 9.264, p-value = 0.01308
+alternative hypothesis: true difference in means is not equal to 0 
+95 percent confidence interval:
+  2.039893 13.388678 
+sample estimates:
+mean of x mean of y 
+ 6.571429 -1.142857 
+
+[1] "start male vs female intelligence"
+
+	Welch Two Sample t-test
+
+data:  males["afqt"] and females["afqt"] 
+t = 0.8402, df = 11813.52, p-value = 0.4008
+alternative hypothesis: true difference in means is not equal to 0 
+95 percent confidence interval:
+ -0.7671614  1.9180958 
+sample estimates:
+mean of x mean of y 
+ 187.1336  186.5581 
+
+
+	Welch Two Sample t-test
+
+data:  males["arith"] and females["arith"] 
+t = 10.9188, df = 11800.28, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0 
+95 percent confidence interval:
+ 1.603033 2.304528 
+sample estimates:
+mean of x mean of y 
+ 47.99765  46.04387 
+
+
+	Welch Two Sample t-test
+
+data:  males["word"] and females["word"] 
+t = -1.9272, df = 11838.76, p-value = 0.05397
+alternative hypothesis: true difference in means is not equal to 0 
+95 percent confidence interval:
+ -0.782345272  0.006627362 
+sample estimates:
+mean of x mean of y 
+ 46.32667  46.71453 
+
+
+	Welch Two Sample t-test
+
+data:  males["parag"] and females["parag"] 
+t = -10.4871, df = 11824.75, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0 
+95 percent confidence interval:
+ -2.507461 -1.717726 
+sample estimates:
+mean of x mean of y 
+ 45.84759  47.96018 
+
+
+	Welch Two Sample t-test
+
+data:  males["math"] and females["math"] 
+t = 2.7005, df = 11842.51, p-value = 0.006932
+alternative hypothesis: true difference in means is not equal to 0 
+95 percent confidence interval:
+ 0.1308375 0.8236248 
+sample estimates:
+mean of x mean of y 
+ 47.81045  47.33322 
+

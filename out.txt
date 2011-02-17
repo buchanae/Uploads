@@ -1,50 +1,45 @@
-[1] "start 3.29"
+[1] 15
+[1] 13
+
+	Exact binomial test
+
+data:  13 and 15 
+number of successes = 13, number of trials = 15, p-value = 0.003693
+alternative hypothesis: true probability of success is greater than 0.5 
+95 percent confidence interval:
+ 0.6365582 1.0000000 
+sample estimates:
+probability of success 
+             0.8666667 
+
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  diff 
+V = 91, p-value = 0.0008308
+alternative hypothesis: true location is greater than 0 
+
+
+	Wilcoxon rank sum test
+
+data:  percentlost by action 
+W = 55, p-value = 0.01286
+alternative hypothesis: true location shift is not equal to 0 
+95 percent confidence interval:
+ 10.80000 61.79999 
+sample estimates:
+difference in location 
+              31.69999 
+
 
 	Two Sample t-test
 
-data:  survived["Humerus"] and perished["Humerus"] 
-t = 1.777, df = 57, p-value = 0.0809
+data:  percentlost by action 
+t = 3.1493, df = 14, p-value = 0.007101
 alternative hypothesis: true difference in means is not equal to 0 
 95 percent confidence interval:
- -1.279386 21.446053 
+ 11.24736 59.27645 
 sample estimates:
-mean of x mean of y 
- 738.0000  727.9167 
-
-
-	Two Sample t-test
-
-data:  survived["Humerus"] and perished_subset["Humerus"] 
-t = 1.3578, df = 56, p-value = 0.1800
-alternative hypothesis: true difference in means is not equal to 0 
-95 percent confidence interval:
- -3.368785 17.542698 
-sample estimates:
-mean of x mean of y 
-  738.000   730.913 
-
-[1] "start 3.33"
-
-	Welch Two Sample t-test
-
-data:  ldata["lesser"] and ldata["greater"] 
-t = -1.9669, df = 90.684, p-value = 0.05225
-alternative hypothesis: true difference in means is not equal to 0 
-95 percent confidence interval:
- -0.797879510  0.003942989 
-sample estimates:
-mean of x mean of y 
- 1.552458  1.949426 
-
-
-	Welch Two Sample t-test
-
-data:  data["lesser"] and data["greater"] 
-t = -2.4686, df = 66.83, p-value = 0.01613
-alternative hypothesis: true difference in means is not equal to 0 
-95 percent confidence interval:
- -7.3836463 -0.7814779 
-sample estimates:
-mean of x mean of y 
- 6.885882 10.968444 
+mean in group L mean in group U 
+       54.83333        19.57143 
 
