@@ -1,0 +1,56 @@
+Call:
+   aov(formula = level ~ group)
+
+Terms:
+                   group Residuals
+Sum of Squares    16.196  8815.717
+Deg. of Freedom        2        20
+
+Residual standard error: 20.9949 
+Estimated effects may be unbalanced
+Analysis of Variance Table
+
+Response: level
+          Df Sum Sq Mean Sq F value Pr(>F)
+group      2   16.2    8.10  0.0184 0.9818
+Residuals 20 8815.7  440.79               
+Tables of effects
+
+ group 
+    Non-pregnant vegetarian Pregnant non-vegetarian Pregnant vegetarian
+                      1.417                  0.2174             -0.6993
+rep                   5.000                  6.0000             12.0000
+[1] 0.08730476
+[1] 0.4656487
+Call:
+   aov(formula = income ~ educ)
+
+Terms:
+                        educ    Residuals
+Sum of Squares  8.322099e+11 4.700043e+12
+Deg. of Freedom            2         2413
+
+Residual standard error: 44133.9 
+Estimated effects may be unbalanced
+Analysis of Variance Table
+
+Response: income
+            Df     Sum Sq    Mean Sq F value    Pr(>F)    
+educ         2 8.3221e+11 4.1610e+11  213.63 < 2.2e-16 ***
+Residuals 2413 4.7000e+12 1.9478e+09                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+Tables of effects
+
+ educ 
+    college graduate high school
+      17521    26246      -15496
+rep     522      484        1410
+[1] 14.60181
+[1] 0
+[1] 28582.99
+[1] 37451.01
+[1] 3.13294
+[1] 0.0008757085
+[1] 3263.91
+[1] 14186.09
