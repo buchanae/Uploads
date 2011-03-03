@@ -1,0 +1,30 @@
+Analysis of Variance Table
+
+Response: WtLoss24
+           Df Sum Sq Mean Sq F value  Pr(>F)  
+Group       2  216.9 108.430  3.2358 0.04086 *
+Residuals 269 9013.9  33.509                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+Tables of means
+Grand mean
+         
+4.430147 
+
+ Group 
+    Low-Carbohydrate Low-Fat Mediterranean
+               5.487   3.304         4.602
+rep           85.000  94.000        93.000
+[1] "Low-Carbohydrate vs Low-Fat"
+[1] 0.1410295
+[1] 6.74903
+[1] "Low-Fat vs Mediterranean"
+[1] -3.293316
+[1] 5.910684
+[1] "Low-carb vs Mediterranean"
+[1] -1.162177
+[1] 8.041823
+[1] "6.15"
+[1] 4.484297
+[1] -7.0905
+[1] 1.090500
