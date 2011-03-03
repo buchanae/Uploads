@@ -7,32 +7,8 @@ attach(data)
 aovdata = aov(WtLoss24~Group)
 anova(aovdata)
 model.tables(aovdata, type='mean')
-mult = qtukey(0.95, 3, 269)/sqrt(2)
 
-
-low_carb_mean = 5.487
-low_carb_n = 85
-
-low_fat_mean = 3.304
-low_fat_n = 94
-
-medit_mean = 4.602
-medit_n = 93
-
-"Low-Carbohydrate vs Low-Fat"
-sub = mult * sqrt(33.509) * sqrt(1/low_carb_n + 1/low_fat_n)
-low_carb_mean - low_fat_mean - sub
-low_carb_mean + low_fat_mean - sub
-
-"Low-Fat vs Mediterranean"
-sub = mult * sqrt(33.509) * sqrt(1/low_fat_n + 1/medit_n)
-low_fat_mean - medit_mean - sub
-low_fat_mean + medit_mean - sub
-
-"Low-carb vs Mediterranean"
-sub = mult * sqrt(33.509) * sqrt(1/low_carb_n + 1/medit_n)
-low_carb_mean - medit_mean - sub
-low_carb_mean + medit_mean - sub
+TukeyHSD(aovdata)
 
 detach(data)
 
