@@ -1,0 +1,131 @@
+[1] "7.23"
+
+Call:
+lm(formula = INTERVAL ~ DURATION)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-14.644  -4.440  -1.088   4.467  15.652 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  33.8282     2.2618   14.96   <2e-16 ***
+DURATION     10.7410     0.6263   17.15   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+
+Residual standard error: 6.683 on 105 degrees of freedom
+Multiple R-squared: 0.7369,	Adjusted R-squared: 0.7344 
+F-statistic: 294.1 on 1 and 105 DF,  p-value: < 2.2e-16 
+
+[1] "7.26"
+
+Call:
+lm(formula = denmark ~ year)
+
+Coefficients:
+(Intercept)         year  
+  5.987e-01   -4.289e-05  
+
+
+Call:
+lm(formula = denmark ~ year)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.003225 -0.001339  0.000089  0.001119  0.003790 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  5.987e-01  4.080e-02  14.673   <2e-16 ***
+year        -4.289e-05  2.069e-05  -2.073   0.0442 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+
+Residual standard error: 0.001803 on 43 degrees of freedom
+Multiple R-squared: 0.09083,	Adjusted R-squared: 0.06968 
+F-statistic: 4.296 on 1 and 43 DF,  p-value: 0.04424 
+
+
+Call:
+lm(formula = netherlands ~ year)
+
+Coefficients:
+(Intercept)         year  
+  6.724e-01   -8.084e-05  
+
+
+Call:
+lm(formula = netherlands ~ year)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-0.0031437 -0.0008246  0.0002819  0.0009287  0.0021478 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  6.724e-01  2.792e-02   24.08  < 2e-16 ***
+year        -8.084e-05  1.416e-05   -5.71 9.64e-07 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+
+Residual standard error: 0.001233 on 43 degrees of freedom
+Multiple R-squared: 0.4313,	Adjusted R-squared: 0.418 
+F-statistic: 32.61 on 1 and 43 DF,  p-value: 9.637e-07 
+
+
+Call:
+lm(formula = canada ~ year)
+
+Coefficients:
+(Intercept)         year  
+  0.7337857   -0.0001112  
+
+
+Call:
+lm(formula = canada ~ year)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-1.494e-03 -6.161e-04 -8.312e-05  4.951e-04  1.284e-03 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  7.338e-01  5.480e-02  13.390 3.98e-11 ***
+year        -1.112e-04  2.768e-05  -4.017 0.000738 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+
+Residual standard error: 0.000768 on 19 degrees of freedom
+  (24 observations deleted due to missingness)
+Multiple R-squared: 0.4592,	Adjusted R-squared: 0.4307 
+F-statistic: 16.13 on 1 and 19 DF,  p-value: 0.0007376 
+
+
+Call:
+lm(formula = usa ~ year)
+
+Coefficients:
+(Intercept)         year  
+  6.201e-01   -5.429e-05  
+
+
+Call:
+lm(formula = usa ~ year)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-5.343e-04 -1.800e-04 -1.714e-05  2.571e-04  3.743e-04 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  6.201e-01  1.860e-02  33.340  < 2e-16 ***
+year        -5.429e-05  9.393e-06  -5.779 1.44e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+
+Residual standard error: 0.0002607 on 19 degrees of freedom
+  (24 observations deleted due to missingness)
+Multiple R-squared: 0.6374,	Adjusted R-squared: 0.6183 
+F-statistic:  33.4 on 1 and 19 DF,  p-value: 1.439e-05 
+
